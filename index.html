@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Photos</title>
+        <script src="photo.js"></script>
+        <script src="photoset.js"></script>
+        <script src="api_service.js"></script>
+        <script src="main.js"></script>
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="photoset">
+            <header>
+                <h1 id="albumTitle"></h1>
+            </header>
+            <div id="photos"> </div>
+        </section>
+        <div id="lightbox">
+            <div class="content">
+                <div class="icon left" onclick="move('left')">
+                    <em><</em>
+                </div>
+                <div id="image">
+                    <div class="icon close" onclick="closeLightbox()">
+                        <em>X</em>
+                    </div>
+                </div>
+                <div class="icon right" onclick="move('right')">
+                    <em> > </em>
+                </div>
+            </div>
+        </div>
+        <div class='uil-ring-css' id="loading" style='transform:scale(0.98);'>
+            <div></div>
+        </div>
+    </body>
+</html>
