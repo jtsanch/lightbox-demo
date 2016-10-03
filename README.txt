@@ -6,4 +6,4 @@ In order for it to run off a local build on ie9, you must enable "Access Data so
 
 Controls
 ---------------
-Click on thumbnails to view them as a lightbox. Click the left or right to navigate left or right. Also use the keys left and right to navigate as well. Escape or clicking the "X" will close the lightbox.s
+Click on thumbnails to view them as a lightbox. Click the left or right to navigate left or right. Also use the keys left and right to navigate as well. Entering escape on the keyboard or clicking "X" will close the lightbox.
